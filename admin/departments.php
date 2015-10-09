@@ -14,9 +14,8 @@ $result=mysqli_query($connect,$query);
 <table class="table table-bordered table-striped">
 		<thead>
 			<tr>
-        <th>Name</th>
         <th>department</th>
-        <th>enroll number</th>
+        <th>enroll id</th>
         <th>Action</th>
       </tr>
 		</thead>
@@ -24,8 +23,7 @@ $result=mysqli_query($connect,$query);
 			while($row=mysqli_fetch_assoc($result)){
 				echo '<tr>
 				<td>'.$row['dept_name'].'</td>
-				<td>'.$row['course_dept'].'</td>
-				<td>'.$row['course_expenroll'].'</td>
+				<td>'.$row['dept_id'].'</td>
 				<td><a href="">edit</a> <a href="">delete</a></td>
 			  </tr>';
 			}

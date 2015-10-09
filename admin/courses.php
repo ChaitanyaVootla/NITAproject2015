@@ -19,7 +19,7 @@ $result=mysqli_query($connect,$query);
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-			<li><a href="login.php">Logout</a></li>
+			<li><a href="../login.php">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
